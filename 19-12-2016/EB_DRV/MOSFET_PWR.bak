@@ -1,0 +1,347 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:stm32f401rbt6
+LIBS:usb_atype_jack
+LIBS:mini_usb_jack
+LIBS:stm32f100rbt6
+LIBS:drv8302
+LIBS:irfs7530
+LIBS:EB_DRV-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 9 13
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L IRFS7530 Q?
+U 1 1 5857BEE3
+P 3950 2850
+F 0 "Q?" H 3850 3150 60  0000 C CNN
+F 1 "IRFS7530" V 4150 2800 60  0000 C CNN
+F 2 "" H 3950 2850 60  0000 C CNN
+F 3 "" H 3950 2850 60  0000 C CNN
+	1    3950 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L IRFS7530 Q?
+U 1 1 5857C03A
+P 6100 2800
+F 0 "Q?" H 6100 3100 60  0000 C CNN
+F 1 "IRFS7530" V 6350 2800 60  0000 C CNN
+F 2 "" H 6100 2800 60  0000 C CNN
+F 3 "" H 6100 2800 60  0000 C CNN
+	1    6100 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L IRFS7530 Q?
+U 1 1 5857C0BB
+P 8250 2750
+F 0 "Q?" H 8200 3100 60  0000 C CNN
+F 1 "IRFS7530" V 8500 2750 60  0000 C CNN
+F 2 "" H 8250 2750 60  0000 C CNN
+F 3 "" H 8250 2750 60  0000 C CNN
+	1    8250 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L IRFS7530 Q?
+U 1 1 5857C144
+P 3950 4250
+F 0 "Q?" H 3900 4550 60  0000 C CNN
+F 1 "IRFS7530" V 4150 4200 60  0000 C CNN
+F 2 "" H 3950 4250 60  0000 C CNN
+F 3 "" H 3950 4250 60  0000 C CNN
+	1    3950 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L IRFS7530 Q?
+U 1 1 5857C1DB
+P 6100 4250
+F 0 "Q?" H 6050 4550 60  0000 C CNN
+F 1 "IRFS7530" V 6300 4250 60  0000 C CNN
+F 2 "" H 6100 4250 60  0000 C CNN
+F 3 "" H 6100 4250 60  0000 C CNN
+	1    6100 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L IRFS7530 Q?
+U 1 1 5857C262
+P 8250 4250
+F 0 "Q?" H 8150 4550 60  0000 C CNN
+F 1 "IRFS7530" V 8450 4300 60  0000 C CNN
+F 2 "" H 8250 4250 60  0000 C CNN
+F 3 "" H 8250 4250 60  0000 C CNN
+	1    8250 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5857C32D
+P 3200 2850
+F 0 "R?" V 3280 2850 50  0000 C CNN
+F 1 "4R7" V 3200 2850 50  0000 C CNN
+F 2 "" V 3130 2850 50  0000 C CNN
+F 3 "" H 3200 2850 50  0000 C CNN
+	1    3200 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5857C366
+P 5400 2800
+F 0 "R?" V 5480 2800 50  0000 C CNN
+F 1 "4R7" V 5400 2800 50  0000 C CNN
+F 2 "" V 5330 2800 50  0000 C CNN
+F 3 "" H 5400 2800 50  0000 C CNN
+	1    5400 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5857C393
+P 7550 2750
+F 0 "R?" V 7630 2750 50  0000 C CNN
+F 1 "4R7" V 7550 2750 50  0000 C CNN
+F 2 "" V 7480 2750 50  0000 C CNN
+F 3 "" H 7550 2750 50  0000 C CNN
+	1    7550 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5857C3C6
+P 3250 4250
+F 0 "R?" V 3330 4250 50  0000 C CNN
+F 1 "4R7" V 3250 4250 50  0000 C CNN
+F 2 "" V 3180 4250 50  0000 C CNN
+F 3 "" H 3250 4250 50  0000 C CNN
+	1    3250 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5857C3F7
+P 5450 4250
+F 0 "R?" V 5530 4250 50  0000 C CNN
+F 1 "4R7" V 5450 4250 50  0000 C CNN
+F 2 "" V 5380 4250 50  0000 C CNN
+F 3 "" H 5450 4250 50  0000 C CNN
+	1    5450 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5857C424
+P 7650 4250
+F 0 "R?" V 7730 4250 50  0000 C CNN
+F 1 "4R7" V 7650 4250 50  0000 C CNN
+F 2 "" V 7580 4250 50  0000 C CNN
+F 3 "" H 7650 4250 50  0000 C CNN
+	1    7650 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5857C48F
+P 3500 4700
+F 0 "R?" V 3580 4700 50  0000 C CNN
+F 1 "39k" V 3500 4700 50  0000 C CNN
+F 2 "" V 3430 4700 50  0000 C CNN
+F 3 "" H 3500 4700 50  0000 C CNN
+	1    3500 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 5857C4E7
+P 5650 4800
+F 0 "R?" V 5730 4800 50  0000 C CNN
+F 1 "39k" V 5650 4800 50  0000 C CNN
+F 2 "" V 5580 4800 50  0000 C CNN
+F 3 "" H 5650 4800 50  0000 C CNN
+	1    5650 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5857C546
+P 7850 4750
+F 0 "R?" V 7930 4750 50  0000 C CNN
+F 1 "39k" V 7850 4750 50  0000 C CNN
+F 2 "" V 7780 4750 50  0000 C CNN
+F 3 "" H 7850 4750 50  0000 C CNN
+	1    7850 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 1800 4050 2150
+Wire Wire Line
+	4050 2150 4050 2450
+Wire Wire Line
+	4050 2150 6200 2150
+Wire Wire Line
+	6200 2150 8350 2150
+Wire Wire Line
+	6200 2150 6200 2400
+Connection ~ 4050 2150
+Wire Wire Line
+	8350 2150 8350 2350
+Connection ~ 6200 2150
+Wire Wire Line
+	4050 3250 4050 3450
+Wire Wire Line
+	4050 3450 4050 3850
+Wire Wire Line
+	6200 3200 6200 3450
+Wire Wire Line
+	6200 3450 6200 3850
+Wire Wire Line
+	8350 3150 8350 3450
+Wire Wire Line
+	8350 3450 8350 3850
+Wire Wire Line
+	4050 4650 4050 5000
+Wire Wire Line
+	4050 5000 4050 5450
+Wire Wire Line
+	6200 4650 6200 5400
+Wire Wire Line
+	6200 5400 6150 5400
+Wire Wire Line
+	8350 4650 8350 5000
+Wire Wire Line
+	8350 5000 8350 5450
+Wire Wire Line
+	3350 2850 3600 2850
+Wire Wire Line
+	5550 2800 5750 2800
+Wire Wire Line
+	7700 2750 7900 2750
+Wire Wire Line
+	7800 4250 7850 4250
+Wire Wire Line
+	7850 4250 7900 4250
+Wire Wire Line
+	5600 4250 5650 4250
+Wire Wire Line
+	5650 4250 5750 4250
+Wire Wire Line
+	3400 4250 3500 4250
+Wire Wire Line
+	3500 4250 3600 4250
+Wire Wire Line
+	5650 4250 5650 4650
+Connection ~ 5650 4250
+Wire Wire Line
+	3500 4250 3500 4550
+Connection ~ 3500 4250
+Wire Wire Line
+	3500 4850 3500 5000
+Wire Wire Line
+	3500 5000 4050 5000
+Wire Wire Line
+	4050 5000 5650 5000
+Connection ~ 4050 5000
+Wire Wire Line
+	5650 5000 5650 4950
+Wire Wire Line
+	7850 4250 7850 4600
+Connection ~ 7850 4250
+Wire Wire Line
+	7850 4900 7850 5000
+Wire Wire Line
+	7850 5000 8350 5000
+Connection ~ 8350 5000
+Wire Wire Line
+	2800 3450 4050 3450
+Wire Wire Line
+	4050 3450 4150 3450
+Connection ~ 4050 3450
+Wire Wire Line
+	5150 3450 6200 3450
+Wire Wire Line
+	6200 3450 6300 3450
+Connection ~ 6200 3450
+Wire Wire Line
+	7350 3450 8350 3450
+Wire Wire Line
+	8350 3450 8450 3450
+Connection ~ 8350 3450
+Text HLabel 3050 2850 0    60   Input ~ 0
+M_H1
+Text HLabel 3100 4250 0    60   Input ~ 0
+M_L1
+Text HLabel 5250 2800 0    60   Input ~ 0
+M_H2
+Text HLabel 5300 4250 0    60   Input ~ 0
+M_L2
+Text HLabel 7400 2750 0    60   Input ~ 0
+M_H3
+Text HLabel 7500 4250 0    60   Input ~ 0
+M_L3
+Text HLabel 2800 3450 0    60   Output ~ 0
+H1_VS
+Text HLabel 5150 3450 0    60   Output ~ 0
+H2_VS
+Text HLabel 7350 3450 0    60   Output ~ 0
+H3_VS
+Text HLabel 3900 5450 0    60   Output ~ 0
+H1_LOW
+Text HLabel 6150 5400 0    60   Output ~ 0
+H2_LOW
+Text HLabel 8250 5450 0    60   Output ~ 0
+H3_LOW
+Text HLabel 4150 3450 2    60   Output ~ 0
+PHASE_A
+Text HLabel 6300 3450 2    60   Output ~ 0
+PHASE_B
+Text HLabel 8450 3450 2    60   Output ~ 0
+PHASE_C
+Wire Wire Line
+	8350 5450 8250 5450
+Wire Wire Line
+	4050 5450 3900 5450
+Text Notes 7050 6950 0    60   ~ 0
+Autor: Krzysztof Piechowski\nPraca Magisterska\n\nMostek tranzysotorowy
+$EndSCHEMATC

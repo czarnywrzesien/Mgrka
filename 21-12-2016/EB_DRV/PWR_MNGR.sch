@@ -1,0 +1,334 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:stm32f401rbt6
+LIBS:usb_atype_jack
+LIBS:mini_usb_jack
+LIBS:stm32f100rbt6
+LIBS:drv8302
+LIBS:irfs7530
+LIBS:microsd
+LIBS:lr12k4-g
+LIBS:EB_DRV-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 13 13
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 7050 6950 0    60   ~ 0
+Autor: Krzysztof Piechowski\nPraca Magisterska\n\nZasilanie
+$Comp
+L LR12K4-G U?
+U 1 1 585B8CFE
+P 4050 2600
+F 0 "U?" H 3850 2900 60  0000 C CNN
+F 1 "LR12K4-G" H 3750 2350 60  0000 C CNN
+F 2 "" H 4500 2100 60  0000 C CNN
+F 3 "" H 4500 2100 60  0000 C CNN
+	1    4050 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L LR12K4-G U?
+U 1 1 585B8D39
+P 8000 2600
+F 0 "U?" H 7800 2900 60  0000 C CNN
+F 1 "LR12K4-G" H 7700 2350 60  0000 C CNN
+F 2 "" H 8450 2100 60  0000 C CNN
+F 3 "" H 8450 2100 60  0000 C CNN
+	1    8000 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C?
+U 1 1 585B8D8E
+P 3300 2800
+F 0 "C?" H 3325 2900 50  0000 L CNN
+F 1 "CP" H 3325 2700 50  0000 L CNN
+F 2 "" H 3338 2650 50  0000 C CNN
+F 3 "" H 3300 2800 50  0000 C CNN
+	1    3300 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C?
+U 1 1 585B8E86
+P 5100 2750
+F 0 "C?" H 5125 2850 50  0000 L CNN
+F 1 "100n" H 5125 2650 50  0000 L CNN
+F 2 "" H 5138 2600 50  0000 C CNN
+F 3 "" H 5100 2750 50  0000 C CNN
+	1    5100 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 2650 3300 2500
+Wire Wire Line
+	2700 2500 3600 2500
+Wire Wire Line
+	4500 2500 5450 2500
+Wire Wire Line
+	5100 2500 5100 2600
+$Comp
+L R R?
+U 1 1 585B8EED
+P 4700 2750
+F 0 "R?" V 4780 2750 50  0000 C CNN
+F 1 "6k04" V 4700 2750 50  0000 C CNN
+F 2 "" V 4630 2750 50  0000 C CNN
+F 3 "" H 4700 2750 50  0000 C CNN
+	1    4700 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 585B8F2C
+P 4050 3250
+F 0 "R?" V 4130 3250 50  0000 C CNN
+F 1 "18k2" V 4050 3250 50  0000 C CNN
+F 2 "" V 3980 3250 50  0000 C CNN
+F 3 "" H 4050 3250 50  0000 C CNN
+	1    4050 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 2500 4700 2600
+Connection ~ 4700 2500
+Wire Wire Line
+	4050 2950 4050 3100
+Wire Wire Line
+	4050 3000 4700 3000
+Wire Wire Line
+	4700 3000 4700 2900
+Connection ~ 4050 3000
+$Comp
+L R R?
+U 1 1 585B8F92
+P 8750 2700
+F 0 "R?" V 8830 2700 50  0000 C CNN
+F 1 "6k04" V 8750 2700 50  0000 C CNN
+F 2 "" V 8680 2700 50  0000 C CNN
+F 3 "" H 8750 2700 50  0000 C CNN
+	1    8750 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 585B9003
+P 8000 3300
+F 0 "R?" V 8080 3300 50  0000 C CNN
+F 1 "10k1" V 8000 3300 50  0000 C CNN
+F 2 "" V 7930 3300 50  0000 C CNN
+F 3 "" H 8000 3300 50  0000 C CNN
+	1    8000 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C?
+U 1 1 585B9073
+P 7200 2750
+F 0 "C?" H 7225 2850 50  0000 L CNN
+F 1 "CP" H 7225 2650 50  0000 L CNN
+F 2 "" H 7238 2600 50  0000 C CNN
+F 3 "" H 7200 2750 50  0000 C CNN
+	1    7200 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C?
+U 1 1 585B90B2
+P 9200 2700
+F 0 "C?" H 9225 2800 50  0000 L CNN
+F 1 "CP" H 9225 2600 50  0000 L CNN
+F 2 "" H 9238 2550 50  0000 C CNN
+F 3 "" H 9200 2700 50  0000 C CNN
+	1    9200 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 2600 7200 2500
+Wire Wire Line
+	6900 2500 7550 2500
+Wire Wire Line
+	8000 2950 8000 3150
+Wire Wire Line
+	8450 2500 9350 2500
+Wire Wire Line
+	9200 2500 9200 2550
+Wire Wire Line
+	8750 2550 8750 2500
+Connection ~ 8750 2500
+Wire Wire Line
+	8750 2850 8750 3000
+Wire Wire Line
+	8750 3000 8000 3000
+Connection ~ 8000 3000
+$Comp
+L GND #PWR?
+U 1 1 585B919E
+P 4050 3600
+F 0 "#PWR?" H 4050 3350 50  0001 C CNN
+F 1 "GND" H 4050 3450 50  0000 C CNN
+F 2 "" H 4050 3600 50  0000 C CNN
+F 3 "" H 4050 3600 50  0000 C CNN
+	1    4050 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 585B91C6
+P 3250 3600
+F 0 "#PWR?" H 3250 3350 50  0001 C CNN
+F 1 "GND" H 3250 3450 50  0000 C CNN
+F 2 "" H 3250 3600 50  0000 C CNN
+F 3 "" H 3250 3600 50  0000 C CNN
+	1    3250 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 585B91EE
+P 5100 3600
+F 0 "#PWR?" H 5100 3350 50  0001 C CNN
+F 1 "GND" H 5100 3450 50  0000 C CNN
+F 2 "" H 5100 3600 50  0000 C CNN
+F 3 "" H 5100 3600 50  0000 C CNN
+	1    5100 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 585B9216
+P 7200 3600
+F 0 "#PWR?" H 7200 3350 50  0001 C CNN
+F 1 "GND" H 7200 3450 50  0000 C CNN
+F 2 "" H 7200 3600 50  0000 C CNN
+F 3 "" H 7200 3600 50  0000 C CNN
+	1    7200 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 585B923E
+P 8000 3600
+F 0 "#PWR?" H 8000 3350 50  0001 C CNN
+F 1 "GND" H 8000 3450 50  0000 C CNN
+F 2 "" H 8000 3600 50  0000 C CNN
+F 3 "" H 8000 3600 50  0000 C CNN
+	1    8000 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 585B9266
+P 9200 3600
+F 0 "#PWR?" H 9200 3350 50  0001 C CNN
+F 1 "GND" H 9200 3450 50  0000 C CNN
+F 2 "" H 9200 3600 50  0000 C CNN
+F 3 "" H 9200 3600 50  0000 C CNN
+	1    9200 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 2950 3300 3600
+Wire Wire Line
+	3300 3600 3250 3600
+Wire Wire Line
+	4050 3400 4050 3600
+Wire Wire Line
+	5100 2900 5100 3600
+Wire Wire Line
+	7200 2900 7200 3600
+Wire Wire Line
+	8000 3450 8000 3600
+Wire Wire Line
+	9200 2850 9200 3600
+Connection ~ 3300 2500
+Connection ~ 7200 2500
+$Comp
+L +36V #PWR?
+U 1 1 585B9552
+P 2700 2500
+F 0 "#PWR?" H 2700 2350 50  0001 C CNN
+F 1 "+36V" H 2700 2640 50  0000 C CNN
+F 2 "" H 2700 2500 50  0000 C CNN
+F 3 "" H 2700 2500 50  0000 C CNN
+	1    2700 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L +36V #PWR?
+U 1 1 585B957A
+P 6900 2500
+F 0 "#PWR?" H 6900 2350 50  0001 C CNN
+F 1 "+36V" H 6900 2640 50  0000 C CNN
+F 2 "" H 6900 2500 50  0000 C CNN
+F 3 "" H 6900 2500 50  0000 C CNN
+	1    6900 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 585B9932
+P 5450 2450
+F 0 "#PWR?" H 5450 2300 50  0001 C CNN
+F 1 "+5V" H 5450 2590 50  0000 C CNN
+F 2 "" H 5450 2450 50  0000 C CNN
+F 3 "" H 5450 2450 50  0000 C CNN
+	1    5450 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 2500 5450 2450
+Connection ~ 5100 2500
+$Comp
+L +3.3V #PWR?
+U 1 1 585B9C7E
+P 9350 2400
+F 0 "#PWR?" H 9350 2250 50  0001 C CNN
+F 1 "+3.3V" H 9350 2540 50  0000 C CNN
+F 2 "" H 9350 2400 50  0000 C CNN
+F 3 "" H 9350 2400 50  0000 C CNN
+	1    9350 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9350 2500 9350 2400
+Connection ~ 9200 2500
+$EndSCHEMATC
